@@ -1,0 +1,3 @@
+Hello, this is my first ever project in developing field, so we've got some bugs,
+hard-coding, code is messy and looks like hell and ect...
+But I will improve.
