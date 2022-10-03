@@ -48,7 +48,7 @@ body {
 /* 1400px */
 @media (max-width: 87.5em) {
   .booking {
-    background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 60%, transparent 50%), url(images/nat-10.webp) !important;
+    background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 60%, transparent 50%), url(../images/nat-10.webp) !important;
   }
 
   .form__input {
@@ -201,7 +201,7 @@ body {
   }
 
   .booking {
-    background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%, transparent 50%), url(images/nat-10.webp) !important;
+    background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%, transparent 50%), url(../images/nat-10.webp) !important;
   }
 
   .booking__form {
@@ -787,7 +787,7 @@ body {
 .section-features {
   margin-top: -11.2rem;
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.75), rgba(40, 180, 133, 0.75)), url(images/nat-4.webp);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.75), rgba(40, 180, 133, 0.75)), url(../images/nat-4.webp);
   transform: skewY(-6deg);
   background-position: top;
   background-size: cover;
@@ -884,19 +884,19 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 .column .card .card-image.first {
-  background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(images/nat-5.webp);
+  background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../images/nat-5.webp);
 }
 .column .card .card-back.first {
   background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
 }
 .column .card .card-image.second {
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(images/nat-6.webp);
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../images/nat-6.webp);
 }
 .column .card .card-back.second {
   background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
 }
 .column .card .card-image.third {
-  background-image: linear-gradient(to right bottom, #299bff, #5643fa), url(images/nat-7.webp);
+  background-image: linear-gradient(to right bottom, #299bff, #5643fa), url(../images/nat-7.webp);
 }
 .column .card .card-back.third {
   background-image: linear-gradient(to right bottom, #299bff, #5643fa);
@@ -1147,7 +1147,7 @@ body {
 }
 
 .booking {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(images/nat-10.webp);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../images/nat-10.webp);
   background-size: cover;
   background-repeat: no-repeat;
   height: 50rem;
