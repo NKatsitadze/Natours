@@ -1,0 +1,220 @@
+/* BIG DESKTOP 1800px */
+@media (min-width: 112.5em) {
+    html {
+      font-size: 75% !important;
+    }
+    
+  }
+  /* Big Laptop 1500px */
+  @media (max-width: 93.75em) {
+    .section-about {
+        padding: 20rem 0 20rem 0 !important;
+    }
+
+    .radio__group {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+  }
+  
+  
+  /* Tablet Landscape / Laptop 1200px */
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25% !important;
+    }
+
+    .section-about {
+        padding: 30rem 0 20rem 0 !important;
+        margin-top: -27rem !important;
+    }
+
+    .booking__form {
+        padding: 3rem !important;
+    }
+  
+    .form__input {
+        width: 70% !important;
+    }
+    
+  
+  }
+  /* 950px */
+  @media (max-width: 59.375em) {
+    .composition {
+        top: 20%;
+    }
+
+    
+  }
+  /* Tablet Portrait mode 900px */
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50% !important;
+    }
+
+    .u-center-text {
+        margin-bottom: 3rem !important;
+    }
+  
+  
+    .booking {
+        background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%, transparent 50%), url(../images/nat-10.webp) !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .booking__form {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        align-items: stretch !important;
+    }
+   
+    .section-about {
+        margin-top: -30rem !important;
+    }
+    
+  }
+  /* Tablet Portrait mode 750px */
+  @media (max-width: 46.875em) {
+    
+    .form__radio--label.small {
+      left: 0% !important;
+    }
+  
+    .footer-row {
+        flex-direction: column !important;
+    }
+  }
+
+
+  /* Phones 650px */
+  @media (max-width: 40.625em) {
+    /* html {
+    } */
+
+    .first-main {
+        grid-template-columns: 1fr !important;
+    }
+  
+
+    .feature-row {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tours-row {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .column {
+        width: 30rem;
+    }
+
+    .section-about {
+        margin-top: -30rem !important;
+        padding: 35rem 0 45rem 0 !important;
+    }
+
+    .text-container {
+        text-align: center;
+    }
+
+    .heading-tertiary {
+        margin-bottom: 1.3rem !important;
+    }
+
+    .heading-tertiary-second {
+        margin-bottom: 1.3rem !important;
+    }
+
+    .section-tours {
+        padding: 13rem 0 5rem 0 !important;
+        margin-top: -5rem !important;
+    }
+
+    .tours-row {
+        margin: 3rem auto 0 auto !important;
+    }
+
+    .story {
+        padding-left: 6rem !important;
+    }
+
+    .booking__form {
+        padding: 1rem !important;
+        text-align: center !important;
+    }
+
+    .radio__group {
+        gap: 1rem !important;
+    }
+
+    .form__radio--label {
+        white-space: nowrap !important;
+    }
+
+    .section-booking {
+        padding: 10rem 15rem !important;
+    }
+
+    .popup__content {
+        grid-template-columns: 0 1fr !important;
+        height: 45% !important;
+    }
+  }
+
+
+  @media (max-width: 34.375em) {
+    .heading-primary-main {
+        font-size: 4.7rem !important;
+        letter-spacing: 2.5rem !important;
+    }
+    
+    .heading-primary-sub {
+        font-size: 1.7rem !important;
+        letter-spacing: 1rem !important;
+    }
+  }
+
+
+
+  /* Phones 414px */
+  @media (max-width: 25.875em) {
+    html {
+        font-size: 40% !important;
+    }
+
+    .section-tours {
+        padding: 15rem 0 8rem 0 !important;
+    }
+
+    .section-stories {
+        padding: 10rem 0 15rem 0 !important;
+    }
+
+    .popup__content {
+        height: 35% !important;
+    }
+
+    .header {
+        clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%) !important;
+    }
+
+    
+  }
+  /* Phones 360px */
+  @media (max-width: 22.5em) {
+    html {
+      font-size: 35% !important;
+    }
+
+    .section-about {
+        margin-top: -32rem !important;
+        padding: 35rem 0 45rem 0 !important;
+    }
+  }
