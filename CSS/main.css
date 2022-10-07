@@ -513,6 +513,7 @@ body {
   left: 0%;
   height: 100%;
   width: 100%;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   transition: all 0.5s;
   box-shadow: 0 1.5rem 40px rgba(0, 0, 0, 0.15);
