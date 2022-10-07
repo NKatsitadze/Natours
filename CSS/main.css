@@ -472,10 +472,10 @@ body {
   transition: all 0.3s;
 }
 .section-features .feature-row .feature-box:hover {
-  -ms-transform: translateY(-1.5rem) scale(1.05);
-  -webkit-transform: translateY(-1.5rem) scale(1.05);
-  -moz-transform: translateY(-1.5rem) scale(1.05);
-  -o-transform: translateY(-1.5rem) scale(1.05);
+  -ms-transform: -webkit-translateY(-1.5rem) -webkit-scale(1.05);
+  -webkit-transform: -webkit-translateY(-1.5rem) -webkit-scale(1.05);
+  -moz-transform: -webkit-translateY(-1.5rem) -webkit-scale(1.05);
+  -o-transform: -webkit-translateY(-1.5rem) -webkit-scale(1.05);
   transform: translateY(-1.5rem) scale(1.05);
 }
 .section-features .feature-row .feature-box #icon {
@@ -507,10 +507,10 @@ body {
   /* min-width: 28rem; */
 }
 .column:hover .card {
-  -ms-transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
-  -moz-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg);
+  -ms-transform: -webkit-rotateY(180deg);
+  -webkit-transform: -webkit-rotateY(180deg);
+  -moz-transform: -webkit-rotateY(180deg);
+  -o-transform: -webkit-rotateY(180deg);
   transform: rotateY(180deg);
 }
 .column .card {
@@ -520,7 +520,7 @@ body {
   left: 0%;
   height: 100%;
   width: 100%;
-  -webkit-transform-style: preserve-3d;
+  -webkit-transform-style: -webkit-preserve-3d;
   transform-style: preserve-3d;
   transition: all 0.5s;
   box-shadow: 0 1.5rem 40px rgba(0, 0, 0, 0.15);
