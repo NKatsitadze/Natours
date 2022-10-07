@@ -503,7 +503,7 @@ body {
   /* min-width: 28rem; */
 }
 .column:hover .card {
-  
+  -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
 .column .card {
