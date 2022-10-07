@@ -472,7 +472,10 @@ body {
   transition: all 0.3s;
 }
 .section-features .feature-row .feature-box:hover {
+  -ms-transform: translateY(-1.5rem) scale(1.05);
   -webkit-transform: translateY(-1.5rem) scale(1.05);
+  -moz-transform: translateY(-1.5rem) scale(1.05);
+  -o-transform: translateY(-1.5rem) scale(1.05);
   transform: translateY(-1.5rem) scale(1.05);
 }
 .section-features .feature-row .feature-box #icon {
@@ -504,7 +507,10 @@ body {
   /* min-width: 28rem; */
 }
 .column:hover .card {
+  -ms-transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
 .column .card {
