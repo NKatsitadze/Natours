@@ -503,7 +503,7 @@ body {
   /* min-width: 28rem; */
 }
 .column:hover .card {
-  -webkit-transform: -webkit-rotateY(180deg);
+  
   transform: rotateY(180deg);
 }
 .column .card {
@@ -516,8 +516,7 @@ body {
   transform-style: preserve-3d;
   transition: all 0.5s;
   box-shadow: 0 1.5rem 40px rgba(0, 0, 0, 0.15);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+ 
 }
 .column .card-front {
   overflow: hidden;
