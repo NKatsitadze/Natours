@@ -40,8 +40,8 @@ body {
   height: 7rem;
   width: 7rem;
   position: fixed;
-  top: 6rem;
-  right: 6rem;
+  top: 5rem;
+  right: 5rem;
   border-radius: 50%;
   z-index: 150;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
@@ -52,8 +52,8 @@ body {
   width: 6rem;
   border-radius: 50%;
   position: fixed;
-  top: 6.5rem;
-  right: 6.5rem;
+  top: 5.5rem;
+  right: 5.5rem;
   background-image: radial-gradient(#7ed56f, #28b485);
   z-index: 100;
   transition: all 0.5s;
