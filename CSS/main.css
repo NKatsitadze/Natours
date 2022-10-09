@@ -469,7 +469,7 @@ body {
   border-radius: 5px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   overflow: hidden;
-  transition: all 0.3s;
+  transition: transform 0.3s;
 }
 .section-features .feature-row .feature-box:hover {
   -ms-transform: -webkit-translateY(-1.5rem) -webkit-scale(1.05);
