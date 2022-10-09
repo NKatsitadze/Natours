@@ -477,6 +477,9 @@ body {
   -moz-transform: -webkit-translateY(-1.5rem) -webkit-scale(1.05);
   -o-transform: -webkit-translateY(-1.5rem) -webkit-scale(1.05);
   transform: translateY(-1.5rem) scale(1.05);
+  z-index: 5;
+  display: inline-block;
+  position: relative;
 }
 .section-features .feature-row .feature-box #icon {
   font-size: 6rem;
