@@ -507,7 +507,9 @@ body {
 .column {
   position: relative;
   height: 50rem;
-  /* min-width: 28rem; */
+  -webkit-perspective: 150rem;
+  perspective: 150rem;
+  
 }
 .column:hover .card {
   -ms-transform: -webkit-rotateY(180deg);
@@ -516,6 +518,13 @@ body {
   -o-transform: -webkit-rotateY(180deg);
   transform: rotateY(180deg);
 }
+.column:hover .card-front {
+  transform: translateY(-180deg);
+}
+.column:hover .card-back {
+  z-index: 5;
+}
+
 .column .card {
   border-radius: 5px;
   position: absolute;
@@ -523,7 +532,7 @@ body {
   left: 0%;
   height: 100%;
   width: 100%;
-  -webkit-transform-style: -webkit-preserve-3d;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   transition: all 0.5s;
   box-shadow: 0 1.5rem 40px rgba(0, 0, 0, 0.15);
