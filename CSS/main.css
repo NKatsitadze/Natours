@@ -472,10 +472,10 @@ body {
   transition: transform 0.3s;
 }
 .section-features .feature-row .feature-box:hover {
-  -ms-transform: -webkit-translateY(-1.5rem) -webkit-scale(1.05);
-  -webkit-transform: -webkit-translateY(-1.5rem) -webkit-scale(1.05);
-  -moz-transform: -webkit-translateY(-1.5rem) -webkit-scale(1.05);
-  -o-transform: -webkit-translateY(-1.5rem) -webkit-scale(1.05);
+  -ms-transform: translateY(-1.5rem) scale(1.05);
+  -webkit-transform: translateY(-1.5rem) scale(1.05);
+  -moz-transform: translateY(-1.5rem) scale(1.05);
+  -o-transform: translateY(-1.5rem) scale(1.05);
   transform: translateY(-1.5rem) scale(1.05);
   z-index: 5;
   display: inline-block;
@@ -520,9 +520,6 @@ body {
 }
 .column:hover .card-front {
   transform: translateY(-180deg);
-}
-.column:hover .card-back {
-  z-index: 5;
 }
 
 .column .card {
