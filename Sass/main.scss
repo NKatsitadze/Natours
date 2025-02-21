@@ -9,7 +9,6 @@ $color-grey-dark-3: #333;
 $color-white: #fff;
 $color-black: #000;
 
-
 $color-secondary-light: #ffb900;
 $color-secondary-dark: #ff7730;
 
@@ -42,23 +41,11 @@ body {
   color: $color-white;
 }
 
-
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /// ////////////////////////////////////////////////////////////////////  Medias  /////////////////////////////////////////////////////////////////////////////////////////
-
-
 /* BIG DESKTOP 1800px */ 
 @media (min-width: 112.5em) {
   html {font-size: 75%;}
   .popup_right-box {position: absolute !important; top: 10% !important;}
-  
-  
   }
 
 /* Big Laptop 1500px */
@@ -79,12 +66,6 @@ body {
   .form__radio--label.large {position: absolute !important; left: 0% !important; bottom: 55% !important;}
   }
   
-
-
-
-
-
-  
   /* Tablet Landscape / Laptop 1200px */
   @media (max-width: 75em) {
       html {font-size: 56.25%;}
@@ -99,9 +80,6 @@ body {
       .heading-secondary.form {font-size: 2rem !important;}
       .form__group:not(:last-child) {margin-bottom: 0rem !important;}
       .popup_right-box {position: absolute !important; top: 15% !important;}
-      
-  
-  
   }
   
   /* 950px */
@@ -110,8 +88,6 @@ body {
     .column {width: 50vw; justify-self: center;}
     .btn.all-tours.form {width: 18.2rem !important;}
   }
-
-
 
   /* Tablet Portrait mode 900px */
   @media (max-width: 56.25em) {
@@ -125,7 +101,6 @@ body {
       .header .logo-box { position: absolute !important ; top: 7rem !important; left: 7rem !important; }
       .section-features .feature-row {display: grid; grid-template-columns: repeat(2, 1fr) !important;}
      
-       
       .column .card .card-image.first {background-position: bottom ;}
       .column .card .card-image.second {background-position: bottom;}
       .column .card .card-image.third {background-position: center;} 
@@ -139,8 +114,6 @@ body {
         .form__radio--label.large {left: 53% !important; bottom: 79% !important;}
         .heading-secondary.form {font-size: 3rem !important;}
       }
-
-  
   
         /* Tablet Portrait mode 750px */
   @media (max-width: 46.875em) { 
@@ -149,9 +122,7 @@ body {
     .footer-row {flex-direction: column !important; position: absolute !important; bottom: 20% !important; left: 50% !important; transform: translateX(-50%) !important;}
     .footer__copyright {margin-left: 1rem !important;}
     .footer-first-row {width: 42rem !important;}
-    
   }
-
   
   /* Phones 650px */ 
   @media (max-width: 40.625em) {
@@ -172,7 +143,6 @@ body {
       .popup__close {top: -3rem !important; right: -5rem !important;}
     }
   
-  
   /* Phones 414px */
   @media (max-width: 25.875em) {
   .header {width: 100vw;}
@@ -183,7 +153,6 @@ body {
   .footer-row {display: grid !important; grid-template-columns: 1fr 1fr !important; bottom: 15% !important; }
   .footer__list {display: grid !important;}
   .footer__logo {height: 10rem !important;}
-  
   }
 
   /* Phones 360px */
@@ -191,51 +160,9 @@ body {
     html {font-size: 35%;}
     .navigation__icon {margin-top: 3.3rem;}
     .heading-secondary.about {margin-top: 3rem; font-size: 2rem;}
-    
   }
 
-
-
-
-
-
-
-
-
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/// ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /// ////////////////////////////////////////////////////////////////////  Medias  /////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
    ////////////////// NAVIGATION //////////////////
    .navigation {
@@ -367,8 +294,6 @@ body {
   top: 0;}
 }
 
-
-
  ///////////////////////// HEADER /////////////////////////////
  
  .header {
@@ -389,7 +314,6 @@ body {
     left: 4.8rem; 
     .logo {
       height: 3.5rem; } }
-
                             }
    
 .heading-primary {
@@ -403,9 +327,6 @@ body {
     letter-spacing: 3.5rem;
     animation: move-in-left 0.5s;
     margin-left: 2.7rem; 
-  
-    
-
   }
      &-sub {
      margin-left: 2.7rem;
@@ -415,9 +336,6 @@ body {
      letter-spacing: 1.5rem;
      transform: translateX(-0.6rem);
      animation: move-in-right 0.5s; 
-    
-   
-
     }
                                       }
 
@@ -502,15 +420,9 @@ body {
     z-index: -1;
     pointer-events: none; }
 }
-
-
-
-
-
   //////////////////////// main part of page ////////////////////////
 
   .section-about {
-    
     background-color: $color-grey-light-1;
     padding: 20rem 0 30rem 0;
     margin-top: -15vh;
@@ -528,7 +440,6 @@ body {
     transition: all 0.2s;
     letter-spacing: 2px;
 
-       
     &:hover {
       transform: scale(1.1);
       text-shadow: 0.5rem 0.5rem 1.5rem rgba($color-black, .2) ;      
@@ -580,7 +491,6 @@ body {
       padding: 3px;
       font-size: $default-font-size;
       transition: all 0.2s;
-
     }
    &:hover {
      background-color: $color-primary;
@@ -673,7 +583,6 @@ body {
     }
   }
 }
- 
 
 /////////////////////// The Tours Section ///////////////////////
 
@@ -681,9 +590,6 @@ body {
   background-color: $color-grey-light-1;
   padding: 25rem 0 8rem 0;
   margin-top: -10rem;
-  
-  
-
   .tours-row {
     margin: 7rem auto 0 auto;
     display: grid;
@@ -903,7 +809,6 @@ body {
   width: 100%;
   opacity: 1; }
  
-  
  /////////////////// SECTION STORIES ///////////////////
  
  .section-stories {
@@ -923,8 +828,6 @@ body {
    font-size: $default-font-size;
    transform: skewX(-10deg);
    position: relative;
-
-
 
    .anti-skew {
     transform: skewX(10deg);
@@ -1023,9 +926,6 @@ body {
     object-fit: cover;
   }
 }
-
-
-
 
 /////////////////// Booking Section ///////////////////
 
@@ -1148,8 +1048,6 @@ body {
   display: none;
 }
 
-
-
 ///////////////// POPUP ////////////////
  
  .popup {
@@ -1164,9 +1062,6 @@ body {
    opacity: 0;
    transition: all 0.3s;
    backdrop-filter: blur(7px);
-
-   
-  
    
    &__close {
      &:link,
@@ -1189,8 +1084,6 @@ body {
        color: orangered;
      }
    }
-   
-  
 
   &:target {
     opacity: 1;
@@ -1254,9 +1147,6 @@ body {
     background-color: transparent;
   }
 
-
-
-
 /////////////////// FOOTER ///////////////////
 
   .footer {
@@ -1288,7 +1178,6 @@ body {
       font-size: 2rem;
       justify-content: space-around;
       margin-top: 25rem;
-      
     }
 
     &__link {
@@ -1301,15 +1190,11 @@ body {
    &__item {
     transition: all 0.3s;
    }
-
   }
 
   .footer__item:hover {
-    
     background-color: $color-grey-dark-3;
     transform: scale(1.5);
-    
-
   }
   .footer__link:hover {
     color: $color-tertiary-light;
@@ -1322,16 +1207,6 @@ body {
     right: 1rem;
     bottom: 1rem;
   }
-  
-
-  
-  
-
-
- 
-
-
-
   // Media Queries //
   /*
   0 - 600px:  Phone
@@ -1340,29 +1215,3 @@ body {
   1200 - 1800: Normal styles
   1800px + : Big screen
   */ 
-
-
-
-  
-
-
-  
-  
-    
-   
-  
-
-
-
-
-
-  
-  
-
-  
-  
-
-  
-
-
-  
