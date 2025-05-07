@@ -3,7 +3,6 @@
     html {
       font-size: 75% !important;
     }
-    
   }
   /* Big Laptop 1500px */
   @media (max-width: 93.75em) {
@@ -17,7 +16,6 @@
         gap: 2rem;
     }
   }
-  
   
   /* Tablet Landscape / Laptop 1200px */
   @media (max-width: 75em) {
@@ -37,16 +35,12 @@
     .form__input {
         width: 70% !important;
     }
-    
-  
   }
   /* 950px */
   @media (max-width: 59.375em) {
     .composition {
         top: 20%;
     }
-
-    
   }
   /* Tablet Portrait mode 900px */
   @media (max-width: 56.25em) {
@@ -75,11 +69,9 @@
     .section-about {
         margin-top: -30rem !important;
     }
-    
   }
   /* Tablet Portrait mode 750px */
   @media (max-width: 46.875em) {
-    
     .form__radio--label.small {
       left: 0% !important;
     }
@@ -92,9 +84,6 @@
 
   /* Phones 650px */
   @media (max-width: 40.625em) {
-    /* html {
-    } */
-
     .first-main {
         grid-template-columns: 1fr !important;
     }
@@ -145,17 +134,21 @@
         padding-left: 6rem !important;
     }
 
-    .booking__form {
-        padding: 1rem !important;
-        text-align: center !important;
+    .form__input {
+        width: 100% !important;
     }
 
     .radio__group {
-        gap: 1rem !important;
+        flex-direction: unset;
+        justify-content: center;
+    }
+    .form__radio--group {
+        width: auto !important;
     }
 
     .form__radio--label {
         white-space: nowrap !important;
+        padding-left: 3.5rem !important;
     }
 
     .section-booking {
@@ -178,6 +171,9 @@
     .heading-primary-sub {
         font-size: 1.7rem !important;
         letter-spacing: 1rem !important;
+    }
+    .radio__group {
+        flex-direction: column;
     }
   }
 
@@ -204,8 +200,6 @@
     .header {
         clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%) !important;
     }
-
-    
   }
   /* Phones 360px */
   @media (max-width: 22.5em) {
@@ -218,3 +212,4 @@
         padding: 35rem 0 45rem 0 !important;
     }
   }
+  
